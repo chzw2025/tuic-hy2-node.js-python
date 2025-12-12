@@ -7,7 +7,7 @@
   修复了随着每个客户端连接而累积的服务器端内存泄漏问题
 
 ```
-curl -Ls https://raw.githubusercontent.com/chzw2025/tuic-hy2-node.js-python/main/hy2.sh | sed 's/\r$//' | bash
+curl -Ls https://raw.githubusercontent.com/chzw2025/tuic-hy2-node.js-python/main/hy2.sh | sed 's/\r$//' | bash -s -- 替换为你的端口
 ```
 
 
